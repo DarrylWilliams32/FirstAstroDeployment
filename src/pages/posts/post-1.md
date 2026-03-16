@@ -1,15 +1,12 @@
-
-# ---
-
+---
 title: 'My First Astro Blog Post'
 pubDate: 2026-03-13
 description: 'This is the first post of my new Astro blog.'
-author: 'Darryl 'Ryuujisan32' Williams
+author: 'Darryl `Ryuujisan32` Williams'
 image:
     url: 'https://docs.astro.build/assets/rose.webp'
     alt: 'The Astro logo on a dark background with a pink glow.'
 tags: ["astro", "blogging", "learning in public"]
-
 ---
 
 # My First Blog Post
