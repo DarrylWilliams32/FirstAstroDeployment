@@ -1,7 +1,5 @@
 ---
-import '../styles/global.css';
-import Footer from '../components/Footer.astro';
-import Header from '../components/Header.astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
 const pageTitle = "About Me";
 
 const identity = {
@@ -43,9 +41,8 @@ const textCase = "Arial";
     </style>
     </head>
     <body>
-        <Header/>
-        <h1>My Astro Site</h1>
-        <h1>{pageTitle}</h1>
+        <BaseLayout pageTitle={pageTitle}>
+        
         <h2>... and my new Astro site!</h2>
 
         <p>I am working through Astro's introductory tutorial. This is the second page on my website, and it's the first one I built myself!</p>
@@ -69,7 +66,7 @@ const textCase = "Arial";
 {finished && <p>I finished this tutorial!</p>}
 
 {goal === 3 ? <p>My goal is to finish in 3 days.</p> : <p>My goal is not 3 days.</p>}
-<Footer/>
+</BaseLayout>
     </body>
 
   <script>
