@@ -5,16 +5,13 @@ pubDate: 2026-03-13
 description: 'This is the first post of my new Astro blog.'
 author: 'Darryl `Ryuujisan32` Williams'
 image:
-    url: 'https://docs.astro.build/assets/rose.webp'
-    alt: 'The Astro logo on a dark background with a pink glow.'
+    src: "/images/dragontyping.jpeg"
+    alt: 'A dragon typing on his laptop.'
 tags: ["astro", "blogging", "learning in public"]
+
 ---
-**Published on:** 2026-03-13 
-
-
 Welcome to my _new blog_ about coding! Here, I will share my learning journey as I build a new website.
 
-![dragon typing at his desk and drinking coffee](/firstAstro/src/assets/dragontyping.jpeg)
 ## What I've accomplished so far
 
 ### Installing Astro 
