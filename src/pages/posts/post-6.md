@@ -17,4 +17,6 @@ Today I learned how to make a toggling menu to display my nav links in site, wel
         display: none;
     }
     
+Catching this bug took a little longer than I care to admit. It should have been obvious immediately. This is one of those instances where it's important to read ALL code that you past into your codebase. This goes for tutorials, LLMS, etc. 
 
+Read. Your. Damn. Code! 
