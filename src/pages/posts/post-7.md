@@ -17,4 +17,4 @@ Do you guys believe I can make it happen? No?
 
 ![A smiling jester]()
 
-Well jeez, at least partially play along with my April Fools joke! I'm still coding, still up early and semi late on this keyboard making things happen. I don't see myself changing that anytime in the forseeable future. Here's to many more years of thinking and creating!
+Well jeez, at least partially play along with my April Fools joke! I'm still coding, still up early and semi late on this keyboard making things happen. I don't see myself changing that anytime in the forseeable future. Here's to many more years of thinking and creating! I hope you guys learn something from me, and I learn something from you as well.
