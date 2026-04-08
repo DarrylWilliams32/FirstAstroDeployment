@@ -1,14 +1,13 @@
 ---
-layout: @/layouts/MarkdownPostLayout.astro
+layout: ../../layouts/MarkdownPostLayout.astro
 title: 'My First Astro Blog Post'
-pubDate: 2026-03-13
 description: 'This is the first post of my new Astro blog.'
 author: 'Darryl `Ryuujisan32` Williams'
 image:
     src: "/images/dragontyping.jpeg"
     alt: 'A dragon typing on his laptop.'
+pubDate: 2026-03-13    
 tags: ["astro", "blogging", "learning in public"]
-
 ---
 Welcome to my _new blog_ about coding! Here, I will share my learning journey as I build a new website.
 
