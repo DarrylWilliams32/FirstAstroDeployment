@@ -1,8 +1,10 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import BlogPost from '../components/BlogPost.astro';
 //creates an array of the blog posts and stores them in an object.
 const allPosts = Object.values(import.meta.glob('./posts/*.md', { eager: true }));
 const pageTitle = "Blog";
+
 ---
 <html lang="en">
   <head>
@@ -17,7 +19,7 @@ const pageTitle = "Blog";
       <p>This is where I will post about my journey learning Astro.</p>
       <ul>
         <!--This iterates over the object using map-->
-        {allPosts.map((post: any) => <li><a href={post.url}>{post.frontmatter.title}</a></li>)}
+        {allPosts.map((post: any) => <BlogPost url={post.url} title={post.frontmatter.title}/>)}
       </ul>
     </BaseLayout>
 

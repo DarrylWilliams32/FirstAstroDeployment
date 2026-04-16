@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-gittitle: 'My First Astro Blog Post'
+title: 'My First Astro Blog Post'
 description: 'This is the first post of my new Astro blog.'
 author: 'Darryl `Ryuujisan32` Williams'
 image:
