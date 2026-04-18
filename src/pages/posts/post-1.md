@@ -23,4 +23,6 @@ I then learned how to make pages by creating new `.astro` files and placing them
 I've been blogging on some platform or another since 2008. This is my first blog post using Astro! I now have Astro pages and Markdown posts!
 
 ### What's next
-I will finish the Astro tutorial, and then keep adding more posts. Watch this space as I slowly change it into both my personal webpage. It'll be like Myspace all over again (I know, I sound old).
+* Add either search bar or button to search based on tags
+* Refactor styling so that small variable changes completely change appearance of template
+* 
