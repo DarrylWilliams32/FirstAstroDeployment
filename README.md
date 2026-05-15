@@ -66,7 +66,7 @@ The metadata for your blog posts are located at the top of your markdown file. Y
 
 
     ---
-
+```
 Within that gate will be your metadata that looks like this:
 
     ```---
@@ -77,7 +77,7 @@ Within that gate will be your metadata that looks like this:
     author: 'Your Name'
     tags: ["tech", "coding"]
     ---
-
+```
 ### Common Errors for Deployment
 
 This repo was originally deployed to Netlify. Netflify is very specific about how metadata must be written. A common reason that your blog isn't deploying correctly may be that you have an extra space after the colon in your metadata. 
@@ -85,3 +85,7 @@ This repo was originally deployed to Netlify. Netflify is very specific about ho
 When it comes to debugging, check the small things first before you dive down the rabbit hole!
 
 Did you find this template useful? It's not required at all, but if you would like to donate to this or future projects, you can donate [here.](https://donate.stripe.com/3cs5lGda765X0nK288)
+
+### Future Updates
+* Add either search bar or button to search based on tags
+* Refactor styling so that small variable changes completely change appearance of template
