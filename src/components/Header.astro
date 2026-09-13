@@ -2,12 +2,16 @@
 
 import Navigation from "./Navigation.astro";
 import Menu from "./Menu.astro";
+import logo from "../assets/logo.png";
 ---
 
 
-<header>
+<header class="top-page">
     <nav>
         <Menu/>
         <Navigation />
     </nav>
+    <div class="logo">
+        <img src={logo.src} alt="Logo" style="width: 100px; height: auto; top: 0; right: 0; margin-right: 20px; display: block; position: absolute;"/>
+    </div>
 </header>
