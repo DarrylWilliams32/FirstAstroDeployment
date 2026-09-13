@@ -63,6 +63,30 @@ h1 {
   display: inline-flex;
 }
 
+.book-call-btn {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      z-index: 9999;
+      
+      /* Styling */
+      background-color: var(--main-color);
+      color: #ffffff;
+      padding: 14px 24px;
+      font-size: 16px;
+      font-weight: 600;
+      border: none;
+      border-radius: 50px;
+      cursor: pointer;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+      transition: transform 0.2s ease, background-color 0.2s ease;
+    }
+
+    .book-call-btn:hover {
+      background-color: black;
+      transform: translateY(-2px);
+    }
+
 @media screen and (min-width: 636px) {
 
   .menu {
