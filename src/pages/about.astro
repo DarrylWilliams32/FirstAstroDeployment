@@ -9,10 +9,9 @@ const identity = {
   hobbies: ["guitar", "fitness", "game development", "gaming", "coding", "reading"],
 };
 
-const skills = ["HTML", "CSS", "JavaScript", "React", "Astro", "Writing Docs"];
-const happy = true;
-const finished = false;
-const goal = 3;
+const currentYear = new Date().getFullYear();
+const yearStarted = 2021;
+const skills = ["HTML", "CSS", "JavaScript", "Java", "PostgreSQL", "MongoDB", "React", "Astro", "Writing Docs"];
 
 //Will import this as reusable variable in CSS
 const skillColor = "crimson";
@@ -43,29 +42,15 @@ const textCase = "Arial";
     <body>
         <BaseLayout pageTitle={pageTitle}>
         
-        <h2>... and my new Astro site!</h2>
+        <h2>The journey and the destination</h2>
 
-        <p>I am working through Astro's introductory tutorial. This is the second page on my website, and it's the first one I built myself!</p>
+        <p>My name is {identity.firstName}. I've been a Software Engineer for {currentYear - yearStarted} years. I've built both SQL and cloud based databases, web applications, websites, and games. I have a passion for solving complex problems and getting out of my comfort zone.</p>
 
-        <p>This site will update as I complete more of the tutorial, so keep checking back and see how my journey is going!</p>
-        
-        <p>Here are a few facts about me:</p>
-<ul>
-  <li>My name is {identity.firstName}.</li>
-  <li>I live in {identity.country} and I work as a {identity.occupation}.</li>
-  {identity.hobbies.length >= 2 &&
-    <li>Two of my hobbies are: {identity.hobbies[0]} and {identity.hobbies[1]}</li>
-  }
-</ul>
 <p>My skills are:</p>
 <ul>
   {skills.map((skill) => <li class="skill">{skill}</li>)}
 </ul>
-{happy && <p>I am happy to be learning Astro!</p>}
 
-{finished && <p>I finished this tutorial!</p>}
-
-{goal === 3 ? <p>My goal is to finish in 3 days.</p> : <p>My goal is not 3 days.</p>}
 </BaseLayout>
     </body>
 
